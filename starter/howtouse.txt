@@ -1,0 +1,7 @@
+Compile both:
+g++ -std=c++17 -o starter starter.cpp
+g++ -std=c++17 -o hello hello.cpp
+
+Run:
+./starter /enter/path/to/a/file/hello
+
