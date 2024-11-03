@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
         fs::path destination = fs::path(hiddenDir) / fs::path(sourceFile).filename();
 
         fs::rename(sourceFile, destination);
-        cout << "File " << sourceFile << "successfully moved to " << destination << endl;
+        cout << "File " << sourceFile << " was successfully moved to " << destination << endl;
     }
     catch (const fs::filesystem_error& e) {
         cerr << "Filesystem error: " << e.what() << endl;
